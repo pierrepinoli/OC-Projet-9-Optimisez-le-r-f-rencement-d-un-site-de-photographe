@@ -14,7 +14,7 @@ $(document).ready(function() {
     });
 });
 
-// mise en œuvre de l'Intersection Observer
+// mise en œuvre de l'Intersection Observer ou chargement paresseux basé sur l'intersection
 document.addEventListener("DOMContentLoaded", function() {
     let lazyImages = document.querySelectorAll('.lazy');
   
