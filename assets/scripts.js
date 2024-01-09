@@ -13,3 +13,23 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
+
+// mise en œuvre de l'Intersection Observer
+document.addEventListener("DOMContentLoaded", function() {
+    let lazyImages = document.querySelectorAll('.lazy');
+  
+    let observer = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let img = entry.target;
+          img.src = img.getAttribute('data-src');
+          img.classList.remove('lazy');
+          observer.unobserve(img);
+        }
+      });
+    });
+  
+    lazyImages.forEach(function(img) {
+      observer.observe(img);
+    });
+  });

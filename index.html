@@ -139,7 +139,7 @@
 				<li>
 					<a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Lien vers le compte instagram">
 						<img src="assets/images/instagram.webp" alt="icône instagram"
-						width="40" height="40">
+						width="40" height="40" loading="lazy"/>
 					</a>
 				</li>
 			</ul>
@@ -155,26 +155,29 @@
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 			</div>
 			<div class="carousel-inner">
+				
 				<div class="carousel-item active">
+
+					<!-- ajout d'un loading = lazy :  Cet attribut indique au navigateur de charger l'image de manière différée -->
 					<img srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1900.webp 1900w, 
 								 ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-780.webp 780w, 
 								 ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-430.webp 430w" 
 						 alt="photographie d'un japonais de dos en costume traversant la rue sur un passage piéton"
-						 width="1900" height="1069">
+						 width="1900" height="1069" loading="lazy"/>
 				</div>
 				<div class="carousel-item">
 					<img srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1900.webp 1900w, 
 								 ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-780.webp 780w, 
 								 ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-430.webp 430w" 
 						 alt="photographie d'une foule de spectateurs joyeux prise à l'intérieur du parterre d'un concert"
-						 width="1900" height="1069">
+						 width="1900" height="1069" loading="lazy"/>
 				</div>
 				<div class="carousel-item">
-					<img srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1900.webp 1900w, 
-							     ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-780.webp 780w, 
+					<img srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1900.webp 1900w,
+							     ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-780.webp 780w,
 								 ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-430.webp 430w," 
 						 alt="photographie d'un couple en tenue de marié s'ambrassant autour d'une groupe de personne "
-						 width="1900" height="1069">
+						 width="1900" height="1069" loading="lazy"/>
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -194,7 +197,7 @@
 					 ./assets/images/nina-560.webp 780w,
 					 ./assets/images/nina-300.webp 430w" 
 			 alt="photographie représentant Nina Carducci"
-			 width="1900" height="1069">
+			 width="1900" height="1069" loading="lazy"/>
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -214,39 +217,48 @@
 			<img data-gallery-tag="Concert" 
 				 class="gallery-item" 
 				 src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-460.webp" 
-				 alt="photographie d'une scène de concert prise depuis les spectateurs"/>
+				 alt="photographie d'une scène de concert prise depuis les spectateurs"
+				 loading="lazy"/>
 			<img data-gallery-tag="Entreprises" 
 				 class="gallery-item" 
 				 src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-460.webp" 
-				 alt="photographie d'un homme habillé en costume et croisant les bras"/>
+				 alt="photographie d'un homme habillé en costume et croisant les bras"
+				 loading="lazy"/>
 			<img data-gallery-tag="Entreprises" 
 				 class="gallery-item" 
 				 src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-460.webp" 
-				 alt="photographie d'une femme assise en train de rigoler dans une groupe de personnes"/>
+				 alt="photographie d'une femme assise en train de rigoler dans une groupe de personnes"
+				 loading="lazy"/>
 			<img data-gallery-tag="Mariages" 
 				 class="gallery-item" 
 				 src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-460.webp" 
-				 alt="photographie de mains d'un couple marié en train de se prendre par les mains"/>
+				 alt="photographie de mains d'un couple marié en train de se prendre par les mains"
+				 loading="lazy"/>
 			<img data-gallery-tag="Portrait" 
 				 class="gallery-item" 
 				 src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-460.webp" 
-				 alt="photographie d'un homme en train de fermer les yeux"/>
+				 alt="photographie d'un homme en train de fermer les yeux"
+				 loading="lazy"/>
 			<img data-gallery-tag="Mariages" 
 				 class="gallery-item" 
 				 src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-460.webp" 
-				 alt="photographie d'un couple marié se tenant par la main et riant en train de marcher">
+				 alt="photographie d'un couple marié se tenant par la main et riant en train de marcher"
+				 loading="lazy"/>
 			<img data-gallery-tag="Portrait" 
 				 class="gallery-item" 
 				 src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-460.webp" 
-				 alt="photographie d'un jeune femme se tenant les cheveux"/>
+				 alt="photographie d'un jeune femme se tenant les cheveux"
+				 loading="lazy"/>
 			<img data-gallery-tag="Concert" 
 				 class="gallery-item" 
 				 src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-460.webp" 
-				 alt="photographie d'un homme chantant dans un micro sur scène lors d'un concert"/>
+				 alt="photographie d'un homme chantant dans un micro sur scène lors d'un concert"
+				 loading="lazy"/>
 			<img data-gallery-tag="Entreprises" 
 				 class="gallery-item" 
 				 src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-460.webp" 
-				 alt="photographie d'une jeune femme en train de rire en travaillant sur son ordinateur portable"/>
+				 alt="photographie d'une jeune femme en train de rire en travaillant sur son ordinateur portable"
+				 loading="lazy"/>
 		</div>
 	</div>
 	<div class="quote">
@@ -335,7 +347,8 @@
 			<img srcset="./assets/images/camera-430.webp 1900w,
 					 	 ./assets/images/camera-280.webp 430w	" 
 				 alt="image d'un appareil photographique Leica"
-				 width="1900" height="1069">
+				 width="1900" height="1069"
+				 loading="lazy"/>
 		</div>
 	</div>
 </footer>
