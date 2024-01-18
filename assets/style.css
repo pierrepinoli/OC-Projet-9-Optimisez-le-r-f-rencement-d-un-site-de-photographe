@@ -361,6 +361,11 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 650px) {
+	body {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
