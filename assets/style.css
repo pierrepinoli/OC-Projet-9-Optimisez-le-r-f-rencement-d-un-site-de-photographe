@@ -1,6 +1,7 @@
 body {
 	max-width: 1920px;
-	margin: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 * {
